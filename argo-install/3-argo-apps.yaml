@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: argocd
     server: https://kubernetes.default.svc
-  project: argo-projects
+  project: default
   source:
     path: argo-applications/
     repoURL: https://github.com/diegoparra/parra-gitops.git
